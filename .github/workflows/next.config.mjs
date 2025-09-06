@@ -1,21 +1,16 @@
 // next.config.mjs
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  // Génère du statique pour GitHub Pages
+export default {
+  // Static export for GitHub Pages
   output: 'export',
-  // Évite des 404 sur Pages
   trailingSlash: true,
 
-  // Next/Image sans optimisation côté serveur (obligatoire sur Pages)
+  // Pages can't run image optimization
   images: { unoptimized: true },
 
-  // Garde tes réglages existants
+  // keep your existing tolerances
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
 
-  // IMPORTANT : pas de basePath / assetPrefix pour un domaine custom
-  // basePath: '',
-  // assetPrefix: '',
+  // IMPORTANT: no basePath / assetPrefix for a custom domain at the root
 };
-
-export default nextConfig;
