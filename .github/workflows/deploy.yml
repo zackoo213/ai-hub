@@ -1,5 +1,4 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches: [ main ]
@@ -19,23 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
-          run_install: false
-
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm build && pnpm export
-
+          cache: 'npm'
+      # Use ci if package-lock.json exists, else install
+      - run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - run: npm run build && npm run export
       - run: |
           [ -f out/404.html ] || cp out/index.html out/404.html
           touch out/.nojekyll
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
