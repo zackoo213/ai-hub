@@ -22,9 +22,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "AI Hub",
+  description: "By Zako & Djawed",
+  generator: "Zako",
 }
 
 export default function RootLayout({
