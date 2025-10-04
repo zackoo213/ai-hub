@@ -87,7 +87,7 @@ export function InvitationCard() {
 
   const handleAcceptInvitation = () => {
     const message = encodeURIComponent("je souhaite accéder au AI Hub")
-    const whatsappUrl = `https://wa.me/213559079070?text=${message}`
+    const whatsappUrl = `https://wa.me/17166413100?text=Je%20souhaite%20rejoindre%20AI%20Hub`
     window.open(whatsappUrl, "_blank")
   }
 
