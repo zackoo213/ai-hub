@@ -108,7 +108,7 @@ export function InvitationCard() {
       >
         <div className="inline-flex items-center gap-2 text-red-600 text-sm font-medium mt-0 ml-0 mb-0 px-0 py-0">
           <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-          <span>L'Prix yetla3 l'10000 DA dans 5J</span>
+          <span>L'Prix yetla3 l'9900 DA dans 5J</span>
         </div>
       </motion.div>
 
@@ -191,7 +191,7 @@ export function InvitationCard() {
         <div className="relative z-10">
           <div className="text-orange-500 text-sm font-medium mb-2">Accès à Vie</div>
           <div className="flex items-baseline justify-center gap-2 mb-2">
-            <span className="text-3xl sm:text-4xl font-bold text-black font-the-seasons">4900</span>
+            <span className="text-3xl sm:text-4xl font-bold text-black font-the-seasons">5900</span>
             <span className="text-black/80 text-base sm:text-lg">DZD / à vie</span>
           </div>
           <div className="text-gray-700 text-sm">
@@ -213,27 +213,22 @@ export function InvitationCard() {
         <div className="space-y-2 text-xs text-gray-700">
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>ChatGPT 1$/mois</span>
+            <span>Formation AI Hooks</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>FREE Perplexity Pro (lifetime)</span>
+            <span>Private Community (lifetime)</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>FREE Canva Pro (lifetime)</span>
+            <span>Formation AI Creatives (lifetime)</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>FREE CapCut Pro (lifetime)</span>
-          </div>
+            <span>Formation Image/Video Gen</span>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>Veo 3 gratuit à vie</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-green-600">✓</span>
-            <span>Accès à toutes nos formations</span>
+            <span>FREE Gemini 3.0, Veo 3, Perplexity & CanvaPRO</span>
           </div>
         </div>
       </motion.div>
