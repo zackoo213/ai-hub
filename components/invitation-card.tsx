@@ -213,11 +213,11 @@ export function InvitationCard() {
         <div className="space-y-2 text-xs text-gray-700">
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>Formation AI Hooks</span>
+            <span>Private Community</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
-            <span>Private Community (lifetime)</span>
+            <span>Formation AI Hooks</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
