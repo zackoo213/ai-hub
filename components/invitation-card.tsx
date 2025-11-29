@@ -226,6 +226,7 @@ export function InvitationCard() {
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
             <span>Formation Image/Video Gen</span>
+          </div>
           <div className="flex items-center gap-2">
             <span className="text-green-600">✓</span>
             <span>FREE Gemini 3.0, Veo 3, Perplexity & CanvaPRO</span>
